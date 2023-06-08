@@ -1,1 +1,4 @@
 $[Dog{name='Gav'}, Cat{name='Mars'}]
+#[Dog{name='Gav'}, Dog{name='Wow'}]
+#[Dog{name='Gav'}, Cat{name='Gav'}]
+#[Dog{name='Gav'}, Dog{name='Gav'}]

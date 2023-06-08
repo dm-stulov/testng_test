@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-08T18:02:52" hostname="n-spb-macstdt" time="0.015">
-  <properties/>
-  <testcase name="equalse" classname="Tests" time="0.015"/>
-  <system-out><![CDATA[[Dog{name='Gav'}, Cat{name='Mars'}]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

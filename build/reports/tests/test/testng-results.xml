@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-08T21:02:52 MSK" name="Gradle suite" finished-at="2023-06-08T21:02:52 MSK" duration-ms="27">
+  <suite started-at="2023-06-08T21:33:20 MSK" name="Gradle suite" finished-at="2023-06-08T21:33:20 MSK" duration-ms="20">
     <groups>
     </groups>
-    <test started-at="2023-06-08T21:02:52 MSK" name="Gradle test" finished-at="2023-06-08T21:02:52 MSK" duration-ms="27">
-      <class name="Tests">
-        <test-method signature="equalse()[pri:0, instance:Tests@37858383]" started-at="2023-06-08T21:02:52 MSK" name="equalse" finished-at="2023-06-08T21:02:52 MSK" duration-ms="15" status="PASS">
+    <test started-at="2023-06-08T21:33:20 MSK" name="Gradle test" finished-at="2023-06-08T21:33:20 MSK" duration-ms="20">
+      <class name="FunctionTests">
+        <test-method signature="differentNamesAndClassesTest()[pri:0, instance:FunctionTests@524d6d96]" started-at="2023-06-08T21:33:20 MSK" name="differentNamesAndClassesTest" description="different name, different classes" finished-at="2023-06-08T21:33:20 MSK" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- equalse -->
-      </class> <!-- Tests -->
+        </test-method> <!-- differentNamesAndClassesTest -->
+        <test-method signature="differentNamesAndSameClassesTest()[pri:0, instance:FunctionTests@524d6d96]" started-at="2023-06-08T21:33:20 MSK" name="differentNamesAndSameClassesTest" description="different names, same classes" finished-at="2023-06-08T21:33:20 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- differentNamesAndSameClassesTest -->
+        <test-method signature="sameNamesAndDifferentClassesTest()[pri:0, instance:FunctionTests@524d6d96]" started-at="2023-06-08T21:33:20 MSK" name="sameNamesAndDifferentClassesTest" description="same names, different classes" finished-at="2023-06-08T21:33:20 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sameNamesAndDifferentClassesTest -->
+        <test-method signature="sameNamesAndSameClassesTest()[pri:0, instance:FunctionTests@524d6d96]" started-at="2023-06-08T21:33:20 MSK" name="sameNamesAndSameClassesTest" description="same names, same classes" finished-at="2023-06-08T21:33:20 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sameNamesAndSameClassesTest -->
+      </class> <!-- FunctionTests -->
     </test> <!-- Gradle test -->
   </suite> <!-- Gradle suite -->
 </testng-results>
