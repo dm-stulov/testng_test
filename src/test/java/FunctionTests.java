@@ -21,7 +21,6 @@ public class FunctionTests {
     @Test(
             description = "same names, different classes"
     )
-
     public void sameNamesAndDifferentClassesTest() {
         Animal[] animals = new Animal[2];
 
@@ -54,5 +53,4 @@ public class FunctionTests {
 
         Assert.assertTrue(Main.compare(animals));
     }
-
 }
